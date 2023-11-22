@@ -1,5 +1,8 @@
 <script>
   $(document).ready(function(){
+    $('#p_use').click(function(){
+      uni_modal("Privacy Policy","policy.php","mid-large")
+    })
      window.viewer_modal = function($src = ''){
       start_loader()
       var t = $src.split('.')
@@ -55,11 +58,15 @@
     }
   })
 </script>
-<footer class="main-footer text-sm">
-        
-      </footer>
-    </div>
-    <!-- ./wrapper -->
+<!-- Footer-->
+<footer class="footer py-4">
+	<div class="container">
+		<div class="row align-items-center">
+			
+		</div>
+	</div>
+</footer>
+
    
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
